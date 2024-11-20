@@ -73,7 +73,7 @@ const Login = () => {
 											<label htmlFor="login-remember" className="form-check-label">Beni Hatırla</label>
 										</div>
 										
-										<div className="">
+										<div>
 											<Link to="/auth/forgot-password">Şifremi Unuttum</Link>
 										</div>
 									
@@ -85,6 +85,13 @@ const Login = () => {
 											<span>Continue</span>
 											<i className="fa-sharp fa-thin fa-angle-double-right"></i>
 										</button>
+									</div>
+									
+									<div className="mb-3">
+										<p className="linkToRegister">
+											<span>Üye Değil Misiniz ? </span>
+											<Link to="/auth/register">Hemen Kayıt Olun</Link>
+										</p>
 									</div>
 								
 								</div>

@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 body {
 	height: 100%;
 	color: rgba(60, 65, 71, 1);
-	font-family: "Lato", sans-serif;
+	font-family: "Poppins", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -120,7 +120,7 @@ body {
 								}
 								
 								.btn-theme {
-									color: rgba(255 255 255, 1);
+									color: rgba(255, 255, 255, 1);
 									padding: 14px 52px !important;
 									font-size: 18px;
 									font-weight: 700;
@@ -131,7 +131,7 @@ body {
 									transition: all 0.2s linear;
 									
 									&:focus, &:hover {
-										color: rgba(255 255 255, 1) !important;
+										color: rgba(255, 255, 255, 1) !important;
 										outline: none !important;
 										box-shadow: 0 4px 11px rgba(241, 103, 67, 0.46) !important;
 										transform: translateY(-2px) !important;
@@ -145,7 +145,21 @@ body {
 								}
 								
 								a {
+									color: rgb(0, 115, 236, 1);
 									text-decoration: none !important;
+									transition: all 0.3s ease-in-out;
+								}
+								
+								.linkToRegister {
+									
+									font-size: 14px;
+									text-align: center;
+									
+									span {
+										color: rgba(126, 133, 146, 1);
+									}
+									
+									
 								}
 								
 							}
