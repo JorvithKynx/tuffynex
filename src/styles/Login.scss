@@ -2,10 +2,10 @@
 
 body {
 	height: 100%;
-	color: rgba(60, 65, 71, 1); // #3c4147
+	color: rgba(60, 65, 71, 1);
 	font-family: "Lato", sans-serif;
-	-webkit-font-smoothing: antialiased; /* Webkit tabanlı tarayıcılar için */
-	-moz-osx-font-smoothing: grayscale; /* macOS tarayıcılar için */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .body-wrapper {
@@ -18,29 +18,22 @@ body {
 		width: 100%;
 		height: 100%;
 		overflow-y: auto;
-		background-color: rgba(250, 250, 250, 1); // #fafafa
+		background-color: rgba(250, 250, 250, 1);
 		
 		.auth-content {
-			display: -webkit-box;
-			display: -ms-flexbox;
 			display: flex;
 			width: 100%;
 			height: 100%;
-			-webkit-box-align: center;
-			-ms-flex-align: center;
 			align-items: center;
-			-webkit-box-pack: center;
-			-ms-flex-pack: center;
 			justify-content: center;
 			
 			.auth-box {
 				width: 100%;
 				max-width: 1032px;
 				margin: 40px auto;
-				-webkit-box-shadow: 0 4px 70px 10px rgba(0, 0, 0, 0.08);
 				box-shadow: 0 4px 70px 10px rgba(0, 0, 0, 0.08);
 				border-radius: 5px;
-				background-color: rgba(250, 251, 252, 1); // #fafbfc
+				background-color: rgba(250, 251, 252, 1);
 				
 				> .container {
 					height: 100%;
@@ -54,32 +47,26 @@ body {
 						}
 						
 						.auth-col-right {
-							display: -webkit-box;
-							display: -ms-flexbox;
 							display: flex;
-							-ms-flex-wrap: wrap;
 							flex-wrap: wrap;
-							-webkit-box-align: center;
-							-ms-flex-align: center;
 							align-items: center;
 							margin: 0;
 							padding: 0;
-							background: rgba(255, 255, 255, 1); // #fff
+							background: rgba(255, 255, 255, 1);
 							
 							.auth-form {
 								width: 100%;
 								min-height: 450px;
 								margin: 0;
 								padding: 55px;
-								border: 1px solid rgba(255, 255, 255, 1); // #ffffff
+								border: 1px solid rgba(255, 255, 255, 1);
 								border-radius: 5px;
-								background: rgba(255, 255, 255, 1); // #ffffff
-								-webkit-box-shadow: none;
+								background: rgba(255, 255, 255, 1);
 								box-shadow: none;
 								overflow-y: auto;
 								
 								h6 {
-									color: rgba(174, 175, 182, 1); // #aeafb6
+									color: rgba(174, 175, 182, 1);
 									font-size: 12px;
 									font-weight: 400;
 									text-transform: uppercase;
@@ -93,7 +80,7 @@ body {
 								}
 								
 								label {
-									color: rgba(32, 41, 47, 1); // #20292f
+									color: rgba(32, 41, 47, 1);
 									font-size: 16px;
 									font-weight: 400;
 								}
@@ -102,71 +89,53 @@ body {
 									
 									i {
 										position: absolute;
-										display: -webkit-box;
-										display: -ms-flexbox;
 										display: flex;
 										top: 0;
 										right: 16px;
 										height: 100%;
 										z-index: 999;
-										-webkit-box-align: center;
-										-ms-flex-align: center;
 										align-items: center;
-										-webkit-box-pack: center;
-										-ms-flex-pack: center;
 										justify-content: center;
 									}
 									
-									input {
-										color: rgba(32, 41, 47, 1); // #20292f
+									.form-control {
+										color: rgba(32, 41, 47, 1);
 										height: 55px;
 										font-size: 16px;
 										font-weight: 400;
 										line-height: 55px;
 										margin: 0 !important;
 										padding: 5px 30px 5px 16px !important;
-										border: 1px solid rgba(232, 234, 233, 1); // #e8eae9
+										border: 1px solid rgba(232, 234, 233, 1);
 										border-radius: 3px;
-										-webkit-box-shadow: none !important;
 										box-shadow: none !important;
 										background: transparent !important;
-										-webkit-transition: all 0.3s;
-										-o-transition: all 0.3s;
 										transition: all 0.3s;
 										
 										&:focus {
 											outline: none !important;
-											-webkit-box-shadow: 0 10px 10px rgba(0, 123, 255, 0.09) !important;
 											box-shadow: 0 10px 10px rgba(0, 123, 255, 0.09) !important;
 										}
 									}
-									
 								}
 								
 								.btn-theme {
-									
-									color: #FFFFFF;
-									
+									color: rgba(255 255 255, 1);
 									padding: 14px 52px !important;
-									
 									font-size: 18px;
 									font-weight: 700;
 									line-height: 25px;
-									
 									border-radius: 5px;
-									
 									box-shadow: none !important;
-									background: #0073EC;
-									
+									background: rgba(0, 115, 236, 1);
 									transition: all 0.2s linear;
 									
 									&:focus, &:hover {
-										color: #FFFFFF !important;
+										color: rgba(255 255 255, 1) !important;
 										outline: none !important;
 										box-shadow: 0 4px 11px rgba(241, 103, 67, 0.46) !important;
 										transform: translateY(-2px) !important;
 									}
-									
 								}
 								
 								input[type="checkbox"] {
